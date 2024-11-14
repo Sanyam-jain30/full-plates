@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background-color: #2c3e50;
+    padding: 20px 0;
+}
+
+header .logo {
+    font-size: 2.5rem;
+    color: #ecf0f1;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #1abc9c;
+}
+
+.hero-donate {
+    background-color: #fff;
+    color: #333;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+}
+
+.hero-info {
+    background-color: #89a38f5c;
+}
+
+.hero {
+    color: #333;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+}
+
+.hero .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero .hero-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-donate .btn {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-info .btn {
+    background-color: #16a085;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #1abc9c;
+}
+
+.btn {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #16a085;
+}
+
+.section {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+}
+
+.section p {
+    font-size: 1.1rem;
+    max-width: 800px;
+}
+
+.social-media {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.social-media a {
+    display: block;
+    margin-bottom: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 1.8rem;
+    transition: background-color 0.3s ease;
+}
+
+social-media a:hover {
+    background-color: #1abc9c;
+}
+
+.social-media .facebook {
+    background: #3b5998;
+}
+
+.social-media .twitter {
+    background: #1da1f2;
+}
+
+.social-media .instagram {
+    background: #e1306c;
+}
+
+.social-media .linkedin {
+    background: #0077b5;
+}
+
+footer {
+    background-color: #2c3e50;
+    padding: 20px 0;
+    text-align: center;
+    color: #ecf0f1;
+}
+
+nav ul li a i,
+.btn i {
+    margin-right: 8px;
+    font-size: 1.3rem;
+}
+
+social-media a i {
+    font-size: 1.8rem;
+    color: #fff;
+    vertical-align: middle;
+    transition: color 0.3s ease;
+}
+
+social-media a:hover i {
+    color: #1abc9c;
+}
+

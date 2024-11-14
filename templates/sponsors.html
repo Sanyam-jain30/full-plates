@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sponsors - Full Plates</title>
+    <link rel="stylesheet" href="../styles/sponsors_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Full Plates</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#sponsors">Sponsors</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="top-sponsor">
+        <div class="container">
+            <h2>Top Sponsor: <span id="top-sponsor-name">Loading...</span></h2>
+            <p id="top-sponsor-details">This is where the details of the top sponsor will appear.</p>
+        </div>
+    </section>
+
+    <section id="sponsors">
+        <div class="container">
+            <h2><i class="fas fa-handshake"></i> Sponsors</h2>
+
+            <div class="sorting-options">
+                <label for="sort-by-amount">Sort by Amount:</label>
+                <select id="sort-by-amount">
+                    <option value="asc">Low to High</option>
+                    <option value="desc">High to Low</option>
+                </select>
+
+                <label for="sort-by-year">Sort by Year:</label>
+                <select id="sort-by-year">
+                    <option value="asc">Oldest to Newest</option>
+                    <option value="desc">Newest to Oldest</option>
+                </select>
+            </div>
+
+            <ul id="sponsors-list"></ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Full Plates - All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../scripts/sponsors_script.js"></script>
+</body>
+</html>
+

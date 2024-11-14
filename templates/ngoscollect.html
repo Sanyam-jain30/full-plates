@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO Food Collection Form</title>
+    <link rel="stylesheet" href="../styles/ngoscollect_styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-card">
+            <h1>NGO Food Collection</h1>
+            <div class="form-group">
+                <label for="ngoName">NGO Name</label>
+                <input type="text" id="ngoName" placeholder="Enter your NGO's name" required>
+            </div>
+
+            <div id="foodCards" class="cards-container"></div>
+
+            <div id="thankYouMessage" class="hidden">
+                <p>Thank you for collecting the food!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../scripts/ngoscollect_script.js"></script>
+</body>
+</html>
+
