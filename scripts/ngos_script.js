@@ -8,7 +8,7 @@ function displayTopNgo(donations) {
 
     const topNgo = donations.reduce((top, current) => (current.quantity > top.quantity ? current : top), donations[0]);
 
-    document.getElementById('top-ngo-name').textContent = topNgo.restaurantName;
+    document.getElementById('top-ngo-name').textContent = topNgo.ngo;
     document.getElementById('top-ngo-details').textContent = `Food Collected: ${topNgo.quantity} tons | Year: ${topNgo.year}`;
 }
 
@@ -20,8 +20,8 @@ function displayNgos(donations) {
         const card = document.createElement('div');
         card.classList.add('ngo-card');
         card.innerHTML = `
-            <img src="${ngo.ngoimage}" alt="${ngo.restaurantName}">
-            <h3>${ngo.restaurantName}</h3>
+            <img src="${ngo.ngoimage}" alt="${ngo.ngo}">
+            <h3>${ngo.ngo}</h3>
             <p>Food Collected: <span class="food-collected">${ngo.quantity} tons</span></p>
             <p>Year: ${ngo.year}</p>
         `;
