@@ -101,6 +101,13 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 
+.hero-a{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .hero-donate .btn {
     background-color: #e74c3c;
     color: #fff;
@@ -108,7 +115,6 @@ nav ul li a:hover {
     font-size: 1.1rem;
     border-radius: 5px;
     text-decoration: none;
-    margin: 0 10px;
     transition: background-color 0.3s ease;
 }
 
@@ -219,3 +225,9 @@ social-media a:hover i {
     color: #1abc9c;
 }
 
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-info .btn, .hero-info .btn i {
+        font-size: 0.8rem;
+    }
+}
